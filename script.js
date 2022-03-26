@@ -122,3 +122,10 @@ function displayStoredData() {
 
 displayStoredData()
 
+let clearButton = document.querySelector('#clearbutton')
+
+clearButton.addEventListener('click', function(){
+
+    localStorage.clear()
+    document.location.reload() 
+})
