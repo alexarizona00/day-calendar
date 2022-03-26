@@ -53,7 +53,7 @@ textarea {
 }
 
 .future {
-  background-color: #77dd77;
+    background-color: #77dd77;
   color: white;
 }
 
@@ -65,12 +65,17 @@ textarea {
   color: white;
 }
 
+#datetime{
+font-size: 50px;
+color: #ff6961;
+  
+}
+
+#r1{
+  background-color: green;
+}
+
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
-}
-
-table{
-  background-color: #77dd77;
-
 }

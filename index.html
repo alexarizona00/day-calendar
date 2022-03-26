@@ -17,80 +17,82 @@
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
+    <div id="datetime"></div>
     <p id="currentDay" class="lead"></p>
   </header>
   <div class="container">
 
     <table class="table">
-      <thead>
+      <thead id="r1">
         <th scope="col">
-          <div id="9">9am</div>
+          <div>9am</div>
         </th>
-        <th scope="col"><textarea class="col-12" id="9text"></textarea></th>
-        <th scope="col"><button><i class="fa-solid fa-floppy-disk"></i></button></th>
+        <th scope="col"><textarea class="col-12 row" id="9text"></textarea></th>
+        <th scope="col" class="9"> <button><i class="fa-solid fa-floppy-disk fa-2xl"></i></button></th>
       </thead>
-      <thead>
+      <thead id="r2">
         <th scope="col">
-          <div id="10">10am</div>
+          <div>10am</div>
         </th>
-        <th scope="col"><textarea class="col-12" id="10text"></textarea></th>
-        <th scope="col"><button><i class="fa-solid fa-floppy-disk"></i></button></th>
+        <th scope="col"><textarea class="col-12 row" id="10"></textarea></th>
+        <th scope="col"><button><i class="fa-solid fa-floppy-disk fa-2xl"></i></button></th>
       </thead>
-      <thead>
+      <thead id="r3">
         <th scope="col">
-          <div id="11">11am</div>
+          <div>11am</div>
         </th>
-        <th scope="col"><textarea class="col-12" id="11text"></textarea></th>
-        <th scope="col"><button><i class="fa-solid fa-floppy-disk"></i></button></th>
+        <th scope="col"><textarea class="col-12 row" id="11"></textarea></th>
+        <th scope="col"><button><i class="fa-solid fa-floppy-disk fa-2xl"></i></button></th>
       </thead>
-      <thead>
+      <thead  id="r4">
         <th scope="col">
-          <div id="12">12pm</div>
+          <div>12pm</div>
         </th>
-        <th scope="col"><textarea class="col-12" id="12text"></textarea></th>
-        <th scope="col"><button><i class="fa-solid fa-floppy-disk"></i></button></th>
+        <th scope="col"><textarea class="col-12 row" id="12"></textarea></th>
+        <th scope="col"><button><i class="fa-solid fa-floppy-disk fa-2xl"></i></button></th>
       </thead>
-      <thead>
+      <thead  id="r5">
         <th scope="col">
-          <div id="1">1pm</div>
+          <div>1pm</div>
         </th>
-        <th scope="col"><textarea class="col-12" id="1text"></textarea></th>
-        <th scope="col"><button><i class="fa-solid fa-floppy-disk"></i></button></th>
+        <th scope="col"><textarea class="col-12 row" id="13"></textarea></th>
+        <th scope="col"><button><i class="fa-solid fa-floppy-disk fa-2xl"></i></button></th>
       </thead>
-      <thead>
+      <thead id="r6" >
         <th scope="col">
-          <div id="2">2pm</div>
+          <div>2pm</div>
         </th>
-        <th scope="col"><textarea class="col-12" id="2text"></textarea></th>
-        <th scope="col"><button><i class="fa-solid fa-floppy-disk"></i></button></th>
+        <th scope="col"><textarea class="col-12 row" id="14"></textarea></th>
+        <th scope="col"><button><i class="fa-solid fa-floppy-disk fa-2xl"></i></button></th>
       </thead>
-      <thead>
+      <thead id="r7">
         <th scope="col">
-          <div id="3">3pm</div>
+          <div id="15">3pm</div>
         </th>
-        <th scope="col"><textarea class="col-12" id="3text"></textarea></th>
-        <th scope="col"><button><i class="fa-solid fa-floppy-disk"></i></button></th>
+        <th scope="col"><textarea class="col-12 row" id="15"></textarea></th>
+        <th scope="col"><button><i class="fa-solid fa-floppy-disk fa-2xl"></i></button></th>
       </thead>
-      <thead>
+      <thead id="r8">
         <th scope="col">
-          <div id="4">4pm</div>
+          <div id="16">4pm</div>
         </th>
-        <th scope="col"><textarea class="col-12" id="4text"></textarea></th>
-        <th scope="col"><button><i class="fa-solid fa-floppy-disk"></i></button></th>
+        <th scope="col"><textarea class="col-12 row" id="16"></textarea></th>
+        <th scope="col"><button><i class="fa-solid fa-floppy-disk fa-2xl"></i></button></th>
       </thead>
-      <thead>
+      <thead id="r9">
         <th scope="col">
-          <div id="5">5pm</div>
+          <div id="17">5pm</div>
         </th>
-        <th scope="col"><textarea class="col-12" id="5text"></textarea></th>
-        <th scope="col"><button><i class="fa-solid fa-floppy-disk"></i></button></th>
+        <th scope="col"><textarea class="col-12 row" id="17"></textarea></th>
+        <th scope="col"><button><i class="fa-solid fa-floppy-disk fa-2xl"></i></button></th>
       </thead>
+
     </table>
   </div>
-
+  <script src="https://kit.fontawesome.com/0b495be49a.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src="https://kit.fontawesome.com/0b495be49a.js" crossorigin="anonymous"></script>
+
   <script src="script.js"></script>
 </body>
 
